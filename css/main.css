@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lato";
+  background-color: #eee9de;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  padding: 2em;
+}
+
+body {
+  color: #333;
+  margin: 1.5rem;
+}
+
+body main {
+  padding: .4em .75em .5em;
+  display: inline-block;
+}
+
+main h1 {
+
+}
+
+ main p {
+
+}
+
+main a {
+  padding: 1em;
+  border-radius: 4px;
+}
