@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato";
+  font-family: Lato;
   background-color: #eee9de;
   line-height: 1.5;
 }
@@ -11,7 +11,8 @@ html {
 
 img {
   display: block;
-  width: 100%
+  width: 100%;
+  vertical-align: middle;
 }
 
 .img {
@@ -26,7 +27,6 @@ body {
 }
 
 body .content {
-  padding: .4em .75em .5em;
   display: inline-block;
   width: 100%;
   max-width: 25em;
@@ -34,21 +34,23 @@ body .content {
 }
 
 .content h1 {
-font-weight: bold;
+  font-weight: bold;
 }
 
- .content p {
-
+.content p {
+  text-align: center;
 }
 
-.content a {
+.btn {
   padding: 1em;
   border-radius: 4px;
   border: 2px solid #333;
   text-decoration: none;
   color: #333;
+  text-align: left;
+  margin: 1.5rem;
 }
 
-.content a:hover {
+.btn:hover {
   background-color: #666;
 }
